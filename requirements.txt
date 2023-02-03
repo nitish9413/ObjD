@@ -3,3 +3,4 @@ ultralytics
 torch
 anonfiles
 gdown
+opencv-python-headless
