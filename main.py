@@ -73,7 +73,7 @@ if is_valid:
         print('valid')
         if st.button('start detection'):
 
-            model.predict(source=source,save=True,project='runs')
+            model.predict(source=source,save=True)
 
             if source_index == 0:
                 with st.spinner(text='Preparing Images'):
